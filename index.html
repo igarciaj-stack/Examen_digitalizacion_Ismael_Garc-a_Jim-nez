@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Examen digitalizacion Ismael</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+    <header class=".contenedor">
+    <h1>Venta de coches</h1>
+    <p id="presentacion">Esta es una pequeña descripción, vendemos coches en perfecto estado y con la mejor calidad posible</p>
+    <h2>Cosas esenciales</h2>
+    <ol id="inicio">
+        <a href="Precios">Precios:</a>
+        <a href="Modelos">Modelos:</a>
+        <a href="De-alquiler">De alquiler</a>
+    </ol>
+    </header>
+    <h2>Imagenes</h2>
+    <section id="galeria">
+        <img src="imagenes/alex-suprun-A53o1drQS2k-unsplash.jpg" alt="">
+        <img src="imagenes/gian-gomez-SU6MbWxLozY-unsplash.jpg" alt="">
+        <img src="imagenes/obi-aZKJEvydrNM-unsplash.jpg" alt="">
+    </section>
+    <h2>Contacto</h2>
+            <form class="formulario" action="">
+                <fieldset>
+                    <legend>Contáctame enviando tus datos</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                            <div>
+                                <label for="">Nombre:</label>
+                                <input class="input-text" type="text" name="nombre" placeholder="Tu Nombre">
+                            </div>
+                        </div>
+                        <div class="campo"> 
+                            <div>
+                                <label for="">Teléfono</label>
+                                <input class="input-text" type="tel" name="teléfono" id="" placeholder="Tu teléfono">
+                            </div>
+                        </div>
+                        <div class="campo">
+                            <div>
+                                <label for="">Correo</label>
+                                <input class="input-text" type="email" name="Correo" id="" placeholder="Tu correo">
+                            </div>
+                        </div>
+                        <div class="campo">
+                            <div>
+                                <label for="">Mensaje</label>
+                                <textarea class="input-text" name="mensaje" id="" cols="30" rows="10"></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <input class="boton" type="submit" value="Enviar">
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
 </body>
 </html>
